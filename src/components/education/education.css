@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+.educationSection{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #588157;
+    border-bottom: 10px solid #344e41;
+}
+
+
+
+.educationContainer{
+    background-color:#588157 ;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.educationTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 230px;
+}
+
+.titleEdu{
+    margin-top: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: #dad7cd;
+}
+
+
+.academia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    font-size: 45px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.tituloCarrera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 55px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.underline{
+    height: 80px;
+    border-bottom: 1px solid #dad7cd ;
+}
+
+
+.duracion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.fecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #344e41;
+}
+
+
+
+.containerBoton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.certificadoBoton{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px ;
+    border: 2px solid;
+    background-color: #344e41;
+    font-size: 15px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #dad7cd;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.certificadoBoton:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+.navbarSection{
+    width: 100vw;
+    background-color: #344e41;
+    
+}
+.navContainer{
+    background-color: #344e41;
+    height: 80px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed; /* Hace que la barra de navegación sea fija */
+    top: 0; /* La fija en la parte superior de la ventana */
+    left: 0; /* La fija a la izquierda de la ventana */
+    background-color: #344e41; /* Color de fondo de la barra de navegación */
+    z-index: 1000; /* Asegura que esté por encima del contenido desplazable */
+}
+
+.navButton{
+    background-color: #344e41;
+    border: 0px ;
+    color: white;
+    height: 65px;
+    width: 230px;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+    position: relative; /* Necesario para el posicionamiento del borde inferior */
+    
+}
+
+.navButton:hover {
+    background-color: #3a5a40;
+}
+
+.navButton:hover::after {
+    content: ""; /* Crea un pseudo-elemento para la línea debajo del botón */
+    position: absolute; /* Lo posiciona de manera absoluta con respecto al botón */
+    bottom: 0; /* Lo posiciona al final del botón */
+    left: 0; /* Lo posiciona al inicio del botón */
+    width: 100%; /* Ancho completo del botón */
+    height: 2px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+}
