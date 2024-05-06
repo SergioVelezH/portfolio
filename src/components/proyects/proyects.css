@@ -43,14 +43,46 @@
 }
 
 .proyect{
+    position: relative;
+    overflow: hidden; /* Para ocultar cualquier parte de la imagen que se desborde del contenedor */
     border: 2px solid #dad7cd;
     border-radius: 10px;
-    width: 300px;
-    height: 120px;
+    width: 500px;
+    height: 150px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
+
+.proyect a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+
+  .proyect img {
+    width: 100%; /* Para que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* Para que la altura se ajuste automáticamente al ancho y se conserve la proporción */
+    transition: transform 0.3s ease; /* Transición suave para cuando se pase el cursor sobre la imagen */
+  }
+
+  .proyect:hover img {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen al pasar el cursor sobre ella */
+  }
 
 .proyect:hover{
     transform: scale(1.1);
 }
+
+
+.proyect span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }

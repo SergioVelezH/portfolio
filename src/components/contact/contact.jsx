@@ -22,7 +22,9 @@ function Contact() {
       </div>
       <div className="linkedinContainer">
         <img src={link} alt="" />
+        <a href="https://www.linkedin.com/in/sergio-v%C3%A9lezz/" style={{ textDecoration: "none" }}>
         <span className="linkedin">LinkedIn : segiovelezH</span>
+        </a>
       </div>
     </div>
     </section>

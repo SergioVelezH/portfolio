@@ -6,6 +6,7 @@ import css from "../../assets/img/icons8-css.svg";
 import reactLogo from "../../assets/img/icons8-reaccionar.svg";
 import node from "../../assets/img/icons8-nodo-js-32.png";
 import post from "../../assets/img/icons8-postgresql-100.png";
+import cvFile from "../../assets/cv/SergioVelezCV.pdf"
 
 function Sergio() {
   return (
@@ -30,9 +31,11 @@ function Sergio() {
           <span>BIENVENIDO A MI PORTFOLIO COMO FULL STACK WEB DEVELOPER</span>
         </div>
         <div className="cv">
+          <a href={cvFile} download="SergioVelezCV.pdf">
           <button className="buttonCv">
             <span>Descarga CV</span>
           </button>
+          </a>
         </div>
       </div>
     </section>
