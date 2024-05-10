@@ -32,7 +32,7 @@ function Proyects() {
     </div>
     <div className="infoContainer">
       <h2>SpeedyCoin</h2>
-      <p>Información general sobre SpeedyCoin...</p>
+      <p>Trabajo hecho como FreeLance</p>
     </div>
   </div>
   <div className="proyect">
@@ -43,7 +43,7 @@ function Proyects() {
     </div>
     <div className="infoContainer">
       <h2>Kimba</h2>
-      <p>Información general sobre Kimba...</p>
+      <p>Trabajo hecho como FreeLance</p>
     </div>
   </div>
 </div>
