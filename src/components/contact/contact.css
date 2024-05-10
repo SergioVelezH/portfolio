@@ -6,63 +6,47 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #588157;
-    border-bottom: 10px solid #344e41;
+    background-color: #07070a;
 }
 
-
-.contactContainer{
-    background-color:#588157 ;
-}
-
-.contactTitleContainer{
-    height: 230px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-}
-
-.contactTitle{
+.tituloContacto{
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #dad7cd;
+    color: #3e78b2;
     font-size: 80px;
 }
 
-.emailContainer{
+.logosContacto{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-.telefonoContainer{
+.logo{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+.telefonoMail{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    gap: 25px;
 }
 
-
-.linkedinContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    margin-bottom: 30px;
-}
-
-.linkedin,
-.telefono,
-.email{
-    font-size: 25px;
+.telefono{
+    color: white;
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
 }

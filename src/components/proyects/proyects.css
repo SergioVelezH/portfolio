@@ -6,13 +6,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #588157;
-    border-bottom: 10px solid #344e41;
+    background-color: #07070a;
+    /* border-bottom: 10px solid #344e41; */
 }
 
 
 .proyectsContainer{
-    background-color:#588157 ;
+    background-color: #07070a;
     width: 1200px;
     display: flex;
     flex-direction: column;
@@ -23,66 +23,63 @@
     flex-direction: row;
     justify-content: center;
     align-items: end;
-    height: 230px;
+    height: 180px;
 }
 
 .firstTitle{
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #dad7cd;
+    color: #3e78b2;
     font-size: 80px;
 }
 
-.allProyects{
-    height:600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.allProyects {
+  margin-top: 35px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.proyect{
-    position: relative;
-    overflow: hidden; /* Para ocultar cualquier parte de la imagen que se desborde del contenedor */
-    border: 2px solid #dad7cd;
-    border-radius: 10px;
-    width: 500px;
-    height: 150px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+.proyect {
+  overflow: hidden;
+  /* border: 2px solid #004ba8; */
+  border-radius: 10px;
+  width: 1200px;
+  height: 200px;
+  margin-bottom: 20px; /* Espacio entre proyectos */
+  display: flex;
+  transition: transform 0.3s ease;
 }
 
-.proyect a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-  }
-
-  .proyect img {
-    width: 100%; /* Para que la imagen se ajuste al ancho del contenedor */
-    height: auto; /* Para que la altura se ajuste automáticamente al ancho y se conserve la proporción */
-    transition: transform 0.3s ease; /* Transición suave para cuando se pase el cursor sobre la imagen */
-  }
-
-  .proyect:hover img {
-    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen al pasar el cursor sobre ella */
-  }
-
-.proyect:hover{
-    transform: scale(1.1);
+.imgContainer {
+  flex: 1; /* Toma la mitad del espacio disponible */
 }
 
+.infoContainer {
+  flex: 1; /* Toma la otra mitad del espacio disponible */
+  background-color: #24272b;
+  padding: 20px;
+}
 
-.proyect span {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-  }
+.proyect img {
+  width: 100%;
+  height: auto; /* Ajusta la altura automáticamente */
+  object-fit: cover; /* Escala la imagen para llenar el contenedor */
+  cursor: pointer;
+}
+
+.proyect:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño cuando el mouse está encima */
+}
+
+.proyect h2,
+.proyect p {
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0; /* Elimina los márgenes predeterminados */
+}
+

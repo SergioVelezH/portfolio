@@ -7,20 +7,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #588157;
-    border-bottom: 10px solid #344e41;
+    background-color: #07070a;
+    /* border-bottom: 10px solid #344e41; */
 }
 
 
 .aboutContainer{
-    background-color:#588157 ;
+    background-color: #07070a;    
     display: flex;
     flex-direction: column;
     width: 1200px;    
 }
 
 .titleContainer{
-    height: 230px;
+    height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,7 +33,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
-    color: #dad7cd;
+    color: #3e78b2;
 }
 
 
@@ -44,15 +44,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #3a5a40;
-    border-radius: 10px;
-    border: 5px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    border-bottom: 10px solid #24272b;
 }
 
 .secondContainer {
-    width: 500px;
-    height: 500px;
+    width: 1200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +61,7 @@
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 

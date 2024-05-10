@@ -19,11 +19,11 @@ function App() {
       <div id="about">
         <About />
       </div>
-      <div id="education">
-        <Education />
-      </div>
       <div id="projects">
         <Proyects />
+      </div>
+      <div id="education">
+        <Education />
       </div>
       <div id="skills">
         <Skills />

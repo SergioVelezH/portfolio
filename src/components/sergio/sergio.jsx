@@ -1,23 +1,37 @@
 import "./sergio.css";
 import React from "react";
-import js from "../../assets/img/Unofficial_JavaScript_logo_2.svg.png";
-import html from "../../assets/img/icons8-html.svg";
+import js from "../../assets/img/icons8-javascript-96.png";
+import html from "../../assets/img/icons8-html5-96.png";
 import css from "../../assets/img/icons8-css.svg";
-import reactLogo from "../../assets/img/icons8-reaccionar.svg";
-import node from "../../assets/img/icons8-nodo-js-32.png";
+import reactLogo from "../../assets/img/icons8-reaccionar-80.png";
+import node from "../../assets/img/icons8-nodo-js.svg";
 import post from "../../assets/img/icons8-postgresql-100.png";
-import cvFile from "../../assets/cv/SergioVelezCV.pdf"
+import cvFile from "../../assets/cv/SergioVelezCV.pdf";
+import perfil from "../../assets/img/fotoperfil.jpg";
+
 
 function Sergio() {
   return (
     <section className="sergioSection">
+      <div className="fotoCvContainer">
+        <div className="cv">
+          <a href={cvFile} download="SergioVelezCV.pdf">
+            <button className="buttonCv">
+              <span>Descargar Curriculum</span>
+            </button>
+          </a>
+        </div>
+        <div className="perfilContainer">
+          <img src={perfil} alt="" className="perfilFoto" />
+        </div>
+      </div>
       <div className="segioContainer">
         <div className="nameContainer">
           <span className="name">Sergio</span>
           <span className="lastName">Vélez</span>
         </div>
         <div className="frase">
-          <span>En busqueda de mi mejor versión</span>
+          <span>{"< "}En busqueda de mi mejor versión {" >"}</span>
         </div>
         <div className="logos">
           <img src={html} alt="" className="html" />
@@ -28,15 +42,15 @@ function Sergio() {
           <img src={post} alt="" className="post" />
         </div>
         <div className="bienvenido">
-          <span>BIENVENIDO A MI PORTFOLIO COMO FULL STACK WEB DEVELOPER</span>
+          <span> {"< "} FULL STACK WEB DEVELOPER {" >"}</span>
         </div>
-        <div className="cv">
+        {/* <div className="cv">
           <a href={cvFile} download="SergioVelezCV.pdf">
           <button className="buttonCv">
             <span>Descarga CV</span>
           </button>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

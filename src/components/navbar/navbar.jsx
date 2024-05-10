@@ -13,11 +13,11 @@ function Navbar({ changeSection }) {
       <section className="navbarSection">
       <div className="navContainer">
         <button className="navButton" onClick={() => scrollToSection("sergio")}>Sergio</button>
-        <button className="navButton" onClick={() => scrollToSection("about")}>About me</button>
-        <button className="navButton" onClick={() => scrollToSection("education")}>Education</button>
-        <button className="navButton" onClick={() => scrollToSection("projects")}>Projects</button>
+        <button className="navButton" onClick={() => scrollToSection("about")}>Sobre Mi</button>
+        <button className="navButton" onClick={() => scrollToSection("projects")}>Proyectos</button>
+        <button className="navButton" onClick={() => scrollToSection("education")}>Formación</button>
         <button className="navButton" onClick={() => scrollToSection("skills")}>Skills</button>
-        <button className="navButton" onClick={() => scrollToSection("contact")}>Contact</button>
+        <button className="navButton" onClick={() => scrollToSection("contact")}>Contacto</button>
       </div>
       </section>
     </nav>

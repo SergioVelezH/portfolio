@@ -1,32 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
 .sectionSkills{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #588157;
-    border-bottom: 10px solid #344e41;
+    background-color: #07070a;
 }
 
 
 .skillsContainer{
     width: 1200px;
-    background-color:#588157 ;
+    background-color: #07070a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillsTitleContainer{
-    height: 230px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: end;
+    margin-bottom: 40px;
 }
 
 .skillsTitle{
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #dad7cd;
+    color: #3e78b2;
     font-size: 80px;
 }
 
@@ -36,47 +42,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
-.lenguajeTitle{
+
+.techTitle{
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
 }
 
-.frameworksContainer{
-    height: 150px;
+
+.techLogos{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
 }
 
-.frameworkTitle{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-    font-size: 25px;
-}
-
-.softwareContainer{
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.softwareTitle{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-    font-size: 25px;
-}
 
 .idiomasContainer{
     height: 180px;
@@ -85,32 +72,25 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
+
 
 .idiomasTitle{
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
 }
 
-
-
-.formacionTitle{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-    font-size: 25px;
-}
-
-.frameworkLogos,
-.lenguajesLogos{
+.espIng{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
 
 .fig,
 .vsc,
@@ -121,14 +101,24 @@
 .js2,
 .css2,
 .html2{
-    width: 60px;
+    width: 100px;
+    border-radius: 30px;
+    border: 2px solid #004ba8;
 }
 
-.idiomasOrder{
+.espIng{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+}
+
+.españolTitleImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .español,
@@ -136,7 +126,13 @@
     font-family: "Kdam Thmor Pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #dad7cd;
+    color: white;
     font-size: 25px;
     text-align: center;
+}
+
+
+.españolImg,
+.inglesImg{
+    width: 50px;
 }
