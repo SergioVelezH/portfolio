@@ -9,7 +9,6 @@ import post from "../../assets/img/icons8-postgresql-100.png";
 import cvFile from "../../assets/cv/SergioVelezCV.pdf";
 import perfil from "../../assets/img/fotoperfil.jpg";
 
-
 function Sergio() {
   return (
     <section className="sergioSection">
@@ -31,7 +30,9 @@ function Sergio() {
           <span className="lastName">Vélez</span>
         </div>
         <div className="frase">
-          <span>{"< "}En busqueda de mi mejor versión {" >"}</span>
+          <span>
+            {"< "}En busqueda de mi mejor versión {" >"}
+          </span>
         </div>
         <div className="logos">
           <img src={html} alt="" className="html" />
@@ -42,7 +43,10 @@ function Sergio() {
           <img src={post} alt="" className="post" />
         </div>
         <div className="bienvenido">
-          <span> {"< "} FULL STACK WEB DEVELOPER {" >"}</span>
+          <span>
+            {" "}
+            {"< "} FULL STACK WEB DEVELOPER {" >"}
+          </span>
         </div>
         {/* <div className="cv">
           <a href={cvFile} download="SergioVelezCV.pdf">

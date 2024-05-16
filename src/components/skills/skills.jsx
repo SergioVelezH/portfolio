@@ -7,8 +7,8 @@ import node from "../../assets/img/icons8-nodo-js.svg";
 import boot from "../../assets/img/icons8-oreja-96.png";
 import vsc from "../../assets/img/icons8-visual-studio-code-2019-96.png";
 import fig from "../../assets/img/icons8-figura-96.png";
-import arg from "../../assets/img/icons8-circular-argentina-96.png"
-import usa from "../../assets/img/icons8-bandera-estadounidense-96.png"
+import arg from "../../assets/img/icons8-circular-argentina-96.png";
+import usa from "../../assets/img/icons8-bandera-estadounidense-96.png";
 
 function Skills() {
   return (
@@ -38,12 +38,12 @@ function Skills() {
           </div>
           <div className="espIng">
             <div className="españolTitleImg">
-            <span className="español">Español Nativo</span>
-            <img src={arg} alt="" className="españolImg" />
+              <span className="español">Español Nativo</span>
+              <img src={arg} alt="" className="españolImg" />
             </div>
             <div className="españolTitleImg">
-            <span className="ingles">Ingles B2</span>
-            <img src={usa} alt="" className="inglesImg"/>
+              <span className="ingles">Ingles B2</span>
+              <img src={usa} alt="" className="inglesImg" />
             </div>
           </div>
         </div>

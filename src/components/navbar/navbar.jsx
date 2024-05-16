@@ -11,14 +11,44 @@ function Navbar({ changeSection }) {
   return (
     <nav>
       <section className="navbarSection">
-      <div className="navContainer">
-        <button className="navButton" onClick={() => scrollToSection("sergio")}>Sergio</button>
-        <button className="navButton" onClick={() => scrollToSection("about")}>Sobre Mi</button>
-        <button className="navButton" onClick={() => scrollToSection("projects")}>Proyectos</button>
-        <button className="navButton" onClick={() => scrollToSection("education")}>Formación</button>
-        <button className="navButton" onClick={() => scrollToSection("skills")}>Skills</button>
-        <button className="navButton" onClick={() => scrollToSection("contact")}>Contacto</button>
-      </div>
+        <div className="navContainer">
+          <button
+            className="navButton"
+            onClick={() => scrollToSection("sergio")}
+          >
+            Sergio
+          </button>
+          <button
+            className="navButton"
+            onClick={() => scrollToSection("about")}
+          >
+            Sobre Mi
+          </button>
+          <button
+            className="navButton"
+            onClick={() => scrollToSection("projects")}
+          >
+            Proyectos
+          </button>
+          <button
+            className="navButton"
+            onClick={() => scrollToSection("education")}
+          >
+            Formación
+          </button>
+          <button
+            className="navButton"
+            onClick={() => scrollToSection("skills")}
+          >
+            Skills
+          </button>
+          <button
+            className="navButton"
+            onClick={() => scrollToSection("contact")}
+          >
+            Contacto
+          </button>
+        </div>
       </section>
     </nav>
   );

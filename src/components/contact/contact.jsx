@@ -24,13 +24,15 @@ function Contact() {
         </div>
         <div>
           <a href="https://www.linkedin.com/in/sergio-v%C3%A9lez-435510284/">
-          <img src={link} alt="" className="logo" />
+            <img src={link} alt="" className="logo" />
           </a>
         </div>
       </div>
       <div className="telefonoMail">
         <span className="telefono">Telefono : +54 9 351-347-4734</span>
-        <span className="telefono">Mail : sergiovelezhernandez11@gmail.com</span>
+        <span className="telefono">
+          Mail : sergiovelezhernandez11@gmail.com
+        </span>
       </div>
     </section>
   );
