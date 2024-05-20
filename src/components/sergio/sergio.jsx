@@ -31,7 +31,7 @@ function Sergio() {
         </div>
         <div className="frase">
           <span>
-            {"< "}En busqueda de mi mejor versión {" >"}
+            {"< "}En búsqueda de mi mejor versión {" >"}
           </span>
         </div>
         <div className="logos">

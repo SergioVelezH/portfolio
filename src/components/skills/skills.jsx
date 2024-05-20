@@ -42,7 +42,7 @@ function Skills() {
               <img src={arg} alt="" className="españolImg" />
             </div>
             <div className="españolTitleImg">
-              <span className="ingles">Ingles B2</span>
+              <span className="ingles">Inglés B2</span>
               <img src={usa} alt="" className="inglesImg" />
             </div>
           </div>

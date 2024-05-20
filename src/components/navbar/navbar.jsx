@@ -22,7 +22,7 @@ function Navbar({ changeSection }) {
             className="navButton"
             onClick={() => scrollToSection("about")}
           >
-            Sobre Mi
+            Sobre Mí
           </button>
           <button
             className="navButton"

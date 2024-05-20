@@ -22,7 +22,7 @@ function Proyects() {
               <h2>Shoes On Track</h2>
               <p>-Proyecto E-Commerce en grupo de 7 personas </p>
               <p>
-                -Se utilizaron teconologias como
+                -Se utilizaron teconologías como
                 Javascript,React,Node.js,PostregSQL
               </p>
             </div>
@@ -36,7 +36,7 @@ function Proyects() {
             <div className="infoContainer">
               <h2>SpeedyCoin</h2>
               <p>-Trabajo hecho como FreeLance</p>
-              <p>-Se utilizaron teconologias como
+              <p>-Se utilizaron teconologías como
                 HTML5, CSS</p>
             </div>
           </div>
@@ -49,7 +49,7 @@ function Proyects() {
             <div className="infoContainer">
               <h2>Key Board Game</h2>
               <p>-Juego de teclado</p>
-              <p>-Se utilizaron tecnologias como Javascript, HTML5, CSS</p>
+              <p>-Se utilizaron tecnologías como Javascript, HTML5, CSS</p>
             </div>
           </div>
         </div>

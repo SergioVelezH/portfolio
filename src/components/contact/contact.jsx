@@ -29,7 +29,7 @@ function Contact() {
         </div>
       </div>
       <div className="telefonoMail">
-        <span className="telefono">Telefono : +54 9 351-347-4734</span>
+        <span className="telefono">Teléfono : +54 9 351-347-4734</span>
         <span className="telefono">
           Mail : sergiovelezhernandez11@gmail.com
         </span>
