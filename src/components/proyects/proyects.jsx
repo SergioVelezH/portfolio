@@ -1,6 +1,7 @@
 import shoes from "../../assets/img/shoesOnTrack.jpg";
 import speedy from "../../assets/img/speedy.png";
 import keyBoard from "../../assets/img/Keyboard.png";
+import arka from "../../assets/img/arka.png"
 
 import "./proyects.css";
 
@@ -23,7 +24,7 @@ function Proyects() {
               <p>-Proyecto E-Commerce en grupo de 7 personas </p>
               <p>
                 -Se utilizaron teconologías como
-                Javascript,React,Node.js,PostregSQL
+                Javascript, React, Node.js, PostgreSQL
               </p>
             </div>
           </div>
@@ -49,6 +50,18 @@ function Proyects() {
             <div className="infoContainer">
               <h2>Key Board Game</h2>
               <p>-Juego de teclado</p>
+              <p>-Se utilizaron tecnologías como Javascript, HTML5, CSS</p>
+            </div>
+          </div>
+          <div className="proyect">
+            <div className="imgContainer">
+              <a href="https://retro-game-eight.vercel.app/">
+                <img src={arka} alt="Nuevo Proyecto" />
+              </a>
+            </div>
+            <div className="infoContainer">
+              <h2>Retro-Game</h2>
+              <p>-Juego de arcade</p>
               <p>-Se utilizaron tecnologías como Javascript, HTML5, CSS</p>
             </div>
           </div>

@@ -1,60 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
-.sectionProyect{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #07070a;
-    /* border-bottom: 10px solid #344e41; */
+.sectionProyect {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07070a;
+  /* border-bottom: 10px solid #344e41; */
 }
 
-
-.proyectsContainer{
-    background-color: #07070a;
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
+.proyectsContainer {
+  background-color: #07070a;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
-.proyectsTitle{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-    height: 180px;
+.proyectsTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  height: 180px;
 }
 
-.firstTitle{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #3e78b2;
-    font-size: 80px;
+.firstTitle {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #3e78b2;
+  font-size: 80px;
 }
 
 .allProyects {
   margin-top: 35px;
   width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Espacio entre columnas */
+  align-items: start;
 }
 
 .proyect {
   overflow: hidden;
   /* border: 2px solid #004ba8; */
   border-radius: 10px;
-  width: 1200px;
+  width: 100%;
   height: 200px;
-  margin-bottom: 20px; /* Espacio entre proyectos */
   display: flex;
   transition: transform 0.3s ease;
 }
 
 .imgContainer {
   flex: 1; /* Toma la mitad del espacio disponible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .infoContainer {
@@ -65,7 +65,7 @@
 
 .proyect img {
   width: 100%;
-  height: auto; /* Ajusta la altura automáticamente */
+  height: 100%;
   object-fit: cover; /* Escala la imagen para llenar el contenedor */
   cursor: pointer;
 }
@@ -79,7 +79,7 @@
   color: white;
   font-family: "Kdam Thmor Pro", sans-serif;
   font-weight: 400;
+  font-size: 14px;
   font-style: normal;
   margin: 0; /* Elimina los márgenes predeterminados */
 }
-
