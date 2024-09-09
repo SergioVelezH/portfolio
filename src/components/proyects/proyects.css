@@ -1,66 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 .sectionProyect {
-  width: 100vw;
+  max-width: 1440px;
+  background-color: #07070a;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: #07070a;
-  /* border-bottom: 10px solid #344e41; */
 }
 
 .proyectsContainer {
-  background-color: #07070a;
-  width: 1200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #24272b;
+  width: 80%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+
 }
 
-.proyectsTitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: end;
-  height: 180px;
-}
+
 
 .firstTitle {
-  font-family: "Kdam Thmor Pro", sans-serif;
+  width: 80%;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-style: normal;
   color: #3e78b2;
-  font-size: 80px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
 
 .allProyects {
   margin-top: 35px;
-  width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px; /* Espacio entre columnas */
-  align-items: start;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .proyect {
-  overflow: hidden;
-  /* border: 2px solid #004ba8; */
-  border-radius: 10px;
   width: 100%;
-  height: 200px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   transition: transform 0.3s ease;
 }
 
 .imgContainer {
-  flex: 1; /* Toma la mitad del espacio disponible */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 40%;
+}
+
+.img{
+  border-radius: 15px;
 }
 
 .infoContainer {
-  flex: 1; /* Toma la otra mitad del espacio disponible */
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.proyectTitle{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.proyectInfo{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.proyectTech{
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 14px;
   background-color: #24272b;
-  padding: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
 }
 
 .proyect img {
@@ -71,15 +102,17 @@
 }
 
 .proyect:hover {
-  transform: scale(1.05); /* Aumenta ligeramente el tamaño cuando el mouse está encima */
+  transform: scale(
+    1.05
+  ); /* Aumenta ligeramente el tamaño cuando el mouse está encima */
 }
 
-.proyect h2,
+/* .proyect h2,
 .proyect p {
   color: white;
-  font-family: "Kdam Thmor Pro", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  margin: 0; /* Elimina los márgenes predeterminados */
-}
+  margin: 0; 
+} */

@@ -5,11 +5,7 @@ function About() {
   return (
     <section className="aboutSection">
       <div className="aboutContainer">
-        <div className="titleContainer">
-          <span className="title">SOBRE MI</span>
-        </div>
-        <div className="descriptionContainer">
-          <div className="secondContainer">
+        <span className="title">SOBRE MI</span>
             <span className="description">
               {"< "} ¡Bienvendios a mi portfolio! Mi nombre es Sergio Vélez
               tengo 22 años y soy de Córdoba Capital, Argentina . En 2022 empecé
@@ -21,8 +17,6 @@ function About() {
               conocimientos y contribuir al éxito de proyectos innovadores.
               {" >"}
             </span>
-          </div>
-        </div>
       </div>
     </section>
   );

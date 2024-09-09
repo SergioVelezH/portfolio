@@ -1,25 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 .navbarSection{
+    max-width: 1440px;
     width: 100vw;
-    background-color: #24272b;
-    
 }
 .navContainer{
     background-color: #24272b;
     height: 80px;
     width: 100%;
-    border-radius: 0px 0px 10px 10px;
     display: flex;
     justify-content:center;
     align-items: center;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    background-color: #24272b;
-    z-index: 1000; 
 }
 
 .navButton{
@@ -29,12 +23,10 @@
     height: 65px;
     width: 230px;
     font-size: 17px;
-    font-family: "Kdam Thmor Pro", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    transition: background-color 0.3s ease; 
-    position: relative; 
-    
+    transition: background-color 0.3s ease;     
 }
 
 .navButton:hover {

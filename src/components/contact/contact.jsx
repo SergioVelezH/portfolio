@@ -8,31 +8,25 @@ import github from "../../assets/img/icons8-github-100.png";
 function Contact() {
   return (
     <section className="sectionContact">
-      <div>
-        <span className="tituloContacto">Contactame!</span>
-      </div>
-      <div className="logosContacto">
-        <div>
-          <a href="https://github.com/SergioVelezH">
-            <img src={github} alt="" className="logo" />
-          </a>
+      <div className="divContact">
+        <span className="contactTitle">Developed by Sergio Vélez</span>
+        <div className="logosContacto">
+          <div className="logoContainer">
+            <a href="https://github.com/SergioVelezH">
+              <img src={github} alt="" className="logo" />
+            </a>
+          </div>
+          <div className="logoContainer">
+            <a href="https://wa.link/49qto7">
+              <img src={wsp} alt="" className="logo" />
+            </a>
+          </div>
+          <div className="logoContainer">
+            <a href="https://www.linkedin.com/in/sergio-v%C3%A9lez-435510284/">
+              <img src={link} alt="" className="logo" />
+            </a>
+          </div>
         </div>
-        <div>
-          <a href="https://wa.link/49qto7">
-            <img src={wsp} alt="" className="logo" />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/sergio-v%C3%A9lez-435510284/">
-            <img src={link} alt="" className="logo" />
-          </a>
-        </div>
-      </div>
-      <div className="telefonoMail">
-        <span className="telefono">Teléfono : +54 9 351-347-4734</span>
-        <span className="telefono">
-          Mail : sergiovelezhernandez11@gmail.com
-        </span>
       </div>
     </section>
   );

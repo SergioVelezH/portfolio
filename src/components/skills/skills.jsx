@@ -13,38 +13,32 @@ import usa from "../../assets/img/icons8-bandera-estadounidense-96.png";
 function Skills() {
   return (
     <section className="sectionSkills">
+        <span className="skillsTitle">SKILLS</span>
       <div className="skillsContainer">
-        <div className="skillsTitleContainer">
-          <span className="skillsTitle">SKILLS</span>
-        </div>
         <div className="lenguajesContainer">
-          <div>
-            <span className="techTitle">Habilidades Técnicas</span>
-          </div>
           <div className="techLogos">
-            <img src={html} alt="" className="html2" />
-            <img src={css} alt="" className="css2" />
-            <img src={js} alt="" className="js2" />
-            <img src={reactLogo} alt="" className="reactLogo2" />
-            <img src={node} alt="" className="node2" />
-            <img src={boot} alt="" className="boot" />
-            <img src={vsc} alt="" className="vsc" />
-            <img src={fig} alt="" className="fig" />
+            <div className="subContainer">
+              <img src={html} alt="" className="html2" />
+              <img src={css} alt="" className="css2" />
+              <img src={js} alt="" className="js2" />
+              <img src={reactLogo} alt="" className="reactLogo2" />
+            </div>
+            <div className="subContainer">
+              <img src={node} alt="" className="node2" />
+              <img src={boot} alt="" className="boot" />
+              <img src={vsc} alt="" className="vsc" />
+              <img src={fig} alt="" className="fig" />
+            </div>
           </div>
         </div>
         <div className="idiomasContainer">
-          <div>
-            <span className="idiomasTitle">Idiomas</span>
+          <div className="españolTitleImg">
+            <img src={arg} alt="" className="españolImg" />
+            <span className="español">Español Nativo</span>
           </div>
-          <div className="espIng">
-            <div className="españolTitleImg">
-              <span className="español">Español Nativo</span>
-              <img src={arg} alt="" className="españolImg" />
-            </div>
-            <div className="españolTitleImg">
-              <span className="ingles">Inglés B2</span>
-              <img src={usa} alt="" className="inglesImg" />
-            </div>
+          <div className="españolTitleImg">
+            <img src={usa} alt="" className="inglesImg" />
+            <span className="ingles">Inglés B2</span>
           </div>
         </div>
       </div>

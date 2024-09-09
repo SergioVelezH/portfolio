@@ -12,49 +12,31 @@ import perfil from "../../assets/img/fotoperfil.jpg";
 function Sergio() {
   return (
     <section className="sergioSection">
-      <div className="fotoCvContainer">
-        <div className="cv">
-          <a href={cvFile} download="SergioVelezCV.pdf">
-            <button className="buttonCv">
-              <span>Descargar Curriculum</span>
-            </button>
-          </a>
-        </div>
-        <div className="perfilContainer">
+      <div className="sergio">
+        {/* <div className="perfilContainer">
           <img src={perfil} alt="" className="perfilFoto" />
-        </div>
-      </div>
-      <div className="segioContainer">
-        <div className="nameContainer">
-          <span className="name">Sergio</span>
-          <span className="lastName">Vélez</span>
-        </div>
-        <div className="frase">
-          <span>
-            {"< "}En búsqueda de mi mejor versión {" >"}
-          </span>
-        </div>
-        <div className="logos">
-          <img src={html} alt="" className="html" />
-          <img src={css} alt="" className="css" />
-          <img src={js} alt="" className="js" />
-          <img src={reactLogo} alt="" className="reactLogo" />
-          <img src={node} alt="" className="node" />
-          <img src={post} alt="" className="post" />
-        </div>
-        <div className="bienvenido">
-          <span>
-            {" "}
-            {"< "} FULL STACK WEB DEVELOPER {" >"}
-          </span>
-        </div>
-        {/* <div className="cv">
-          <a href={cvFile} download="SergioVelezCV.pdf">
-          <button className="buttonCv">
-            <span>Descarga CV</span>
-          </button>
-          </a>
         </div> */}
+        <div className="segioContainer">
+          <div className="nameContainer">
+            <span className="name">Sergio</span>
+            <span className="lastName">Vélez</span>
+          </div>
+          <span className="bienvenido">
+            {" "}
+            {"< "} SOFTWARE DEVELOPER {" >"}
+          </span>
+          <div className="logos">
+            <img src={html} alt="" className="html" />
+            <img src={css} alt="" className="css" />
+            <img src={js} alt="" className="js" />
+            <img src={reactLogo} alt="" className="reactLogo" />
+            <img src={node} alt="" className="node" />
+            <img src={post} alt="" className="post" />
+          </div>
+          <a href={cvFile} download="SergioVelezCV.pdf" className="aButton">
+            <button className="buttonCv">Descargar Curriculum</button>
+          </a>
+        </div>
       </div>
     </section>
   );

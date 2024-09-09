@@ -1,52 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-.sectionContact{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #07070a;
+
+.sectionContact {
+  max-width: 1440px;
+  background-color: #24272b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.tituloContacto{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #3e78b2;
-    font-size: 80px;
+.divContact {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #24272b;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
-.logosContacto{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+.contactTitle{
+  width: 80%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.logo{
-    width: 100px;
-    cursor: pointer;
-    border-radius: 30px;
+.tituloContacto {
+  width: 80%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #3e78b2;
+  font-size: 30px;
 }
 
-
-.telefonoMail{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+.logosContacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
-.telefono{
-    color: white;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    margin-bottom: 20px;
+.logoContainer{
+  width: 20%;
+}
+
+.logo {
+  width: 30%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.telefonoMail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.telefono {
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }

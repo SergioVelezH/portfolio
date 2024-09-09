@@ -1,228 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
-/* 
-.educationSection{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #588157;
-    border-bottom: 10px solid #344e41;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+
+.educationSection {
+  max-width: 1440px;
+  background-color: #07070a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
-.educationContainer{
-    background-color:#588157 ;
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.educationContainer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 80%;
+  background-color: #24272b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
 }
 
-
-
-.educationTitle{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-    height: 230px;
+.nombreSeccion {
+  width: 80%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #3e78b2;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
 
-.titleEdu{
-    margin-top: 30px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    color: #dad7cd;
+.formacion {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-.academia{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    font-size: 45px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
+.henry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+}
+.henryImgCointainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: 50%;
 }
 
-.tituloCarrera{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    font-size: 55px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
+.henryImg {
+  width: 100%;
 }
 
-.underline{
-    height: 80px;
-    border-bottom: 1px solid #dad7cd ;
+.nombreCurso {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
 }
 
-
-.duracion{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    font-size: 25px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
+.nombreTitulo {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
 }
 
-.fecha{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    font-size: 25px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #344e41;
+.duracion {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: white;
 }
 
-
-
-.containerBoton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    margin-bottom: 50px;
+.año {
+  font-family: "Roboto Mono", monospace;  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
 }
 
-.certificadoBoton{
-    height: 50px;
-    width: 150px;
-    border-radius: 10px ;
-    border: 2px solid;
-    background-color: #344e41;
-    font-size: 15px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #dad7cd;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+.certificado {
+  height: 50px;
+  color: #dad7cd;
+  border-radius: 10px;
+  border: 2px solid #3e78b2;
+  background-color: #24272b;
+  font-size: 14px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.certificadoBoton:hover{
-    transform: scale(1.1);
-} */
-
-
-
-.educationSection{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #07070a;
-}
-
-.nombreSeccion{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    margin-top: 80px;
-    color: #3e78b2;
-    margin-bottom: 20px;
-}
-
-.formacion{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 100px;
-}
-
-.henry{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 800px;
-}
-.henryImgCointainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-}
-
-.henryImg{
-    width: 250px;
-}
-
-.nombreCurso{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    color: white;
-}
-
-
-.nombreTitulo{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    color: white;
-}
-
-.duracion{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: white;
-}
-
-.año{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    color: white;
-}
-
-.certificado{
-    height: 50px;
-    width: 260px;
-    color: #dad7cd;
-    border-radius: 10px ;
-    border: 2px solid #3e78b2;
-    background-color: #24272b;
-    font-size: 14px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.certificado:hover{
-    transform: scale(1.1);
+.certificado:hover {
+  transform: scale(1.1);
 }

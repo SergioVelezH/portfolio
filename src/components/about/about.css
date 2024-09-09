@@ -1,81 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
-
-.aboutSection{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #07070a;
-    /* border-bottom: 10px solid #344e41; */
+.aboutSection {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07070a;
 }
 
-
-.aboutContainer{
-    background-color: #07070a;    
-    display: flex;
-    flex-direction: column;
-    width: 1200px;    
+.aboutContainer {
+  background-color: #07070a;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
 }
 
-.titleContainer{
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-}
-
-
-.title{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    color: #3e78b2;
-}
-
-
-
-
-.descriptionContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-    border-bottom: 10px solid #24272b;
+.title {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: #3e78b2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  margin: 30px;
 }
 
 .secondContainer {
-    width: 1200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.description{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 20px;
-}
-
-
-.fotoPerfil{
-    height: 400px;
-    border: 5px solid #dad7cd;
-    border-radius: 10px;
-}
-
-.fotoContainer{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
+.description {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

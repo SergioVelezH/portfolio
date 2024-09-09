@@ -1,154 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 
-.sergioSection{
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #07070a;
-    /* border-bottom: 10px solid #344e41; */
+.sergioSection {
+  max-width: 1440px;
+  background-color: #07070a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.fotoCvContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
+.sergio {
+  width: 80%;
+  background-color: #07070a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.cv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 600px;
-    height: 50px;
-    margin-top: 100px;
+/* .perfilContainer {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.buttonCv{
-    height: 50px;
-    width: 260px;
-    color: #dad7cd;
-    border-radius: 10px ;
-    border: 2px solid #3e78b2;
-    background-color: #24272b;
-    font-size: 14px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
+.perfilFoto {
+  border-radius: 30px;
+  width: 100%;
+} */
 
-.buttonCv:hover{
-    transform: scale(1.1);
+.segioContainer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #07070a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
 
 
-.perfilContainer{
-    width: 600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
+.nameContainer {
+  /* height: 180px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.perfilFoto{
-    border: 5px solid #24272b;
-    border-radius: 10px;
-    width: 250px;
+.name {
+  font-size: 80px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #3e78b2;
+}
+.lastName {
+  font-size: 80px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #004ba8;
+}
+.bienvenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
 }
 
 
-.segioContainer{
-    background-color:#07070a ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 800px;
-}
-
-.nameContainer{
-    height: 230px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-    gap: 10px;
-    font-size: 80px;
-}
-
-.name{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #3e78b2;
-    border-bottom: 10px solid #24272b ;
-}
-.lastName{
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #004ba8;
-    border-bottom: 10px solid #24272b ;
-}
-
-.frase{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    font-size: 20px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-}
 
 .js,
 .css,
 .html,
 .post,
 .reactLogo,
-.node{
-    width: 70px;
-    height: 70px;
-    border-radius: 20px;
+.node {
+  width: 16%;
+  border-radius: 20px;
 }
 
 .logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  height: 110px;
 }
 
 
-
-
-.bienvenido{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    height: 100px;
-    color: white;
+.aButton {
+  width: 40%;
 }
 
+.buttonCv {
+  height: 40px;
+  width: 100%;
+  color: #dad7cd;
+  border-radius: 20px;
+  background-color: #24272b;
+  font-size: 14px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
 
-
+.buttonCv:hover {
+  transform: scale(1.1);
+}
