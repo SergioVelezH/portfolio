@@ -1,44 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-
-.navbarSection{
-    max-width: 1440px;
-    width: 100vw;
+.navbarSection {
+  max-width: 1440px;
+  width: 100vw;
 }
-.navContainer{
-    background-color: #24272b;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+.navContainer {
+  background-color: #24272b;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navButton{
-    background-color: #24272b;
-    border: 0px ;
-    color: white;
-    height: 65px;
-    width: 230px;
-    font-size: 17px;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-    transition: background-color 0.3s ease;     
+.navButton {
+  background-color: #24272b;
+  border: 0px;
+  color: white;
+  height: 65px;
+  width: 230px;
+  font-size: 17px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  transition: background-color 0.3s ease;
 }
 
 .navButton:hover {
-    background-color: #3e78b2;
+  background-color: #3e78b2;
 }
 
 .navButton:hover::after {
-    content: ""; 
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 2px; 
-    background-color: black; 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
 }
+
+@media (max-width: 700px) {
+  .navButton {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .navButton {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+    .navButton {
+      font-size: 10px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .navButton {
+      font-size: 8px;
+    }
+  }

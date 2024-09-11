@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 .sergioSection {
   max-width: 1440px;
@@ -20,19 +19,6 @@
   justify-content: center;
 }
 
-/* .perfilContainer {
-  max-width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.perfilFoto {
-  border-radius: 30px;
-  width: 100%;
-} */
-
 .segioContainer {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -42,7 +28,6 @@
   align-items: center;
   gap: 25px;
 }
-
 
 .nameContainer {
   /* height: 180px; */
@@ -79,8 +64,6 @@
   color: white;
 }
 
-
-
 .js,
 .css,
 .html,
@@ -97,9 +80,7 @@
   justify-content: center;
   align-items: center;
   max-width: 500px;
-  height: 110px;
 }
-
 
 .aButton {
   width: 40%;
@@ -121,4 +102,62 @@
 
 .buttonCv:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .name {
+    font-size: 60px;
+  }
+  .lastName {
+    font-size: 60px;
+  }
+
+  .bienvenido {
+    font-size: 16px;
+  }
+
+  .js,
+  .css,
+  .html,
+  .post,
+  .reactLogo,
+  .node {
+    width: 14%;
+  }
+
+  .buttonCv {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .name {
+    font-size: 40px;
+  }
+  .lastName {
+    font-size: 40px;
+  }
+
+  .bienvenido {
+    font-size: 12px;
+  }
+
+  .js,
+  .css,
+  .html,
+  .post,
+  .reactLogo,
+  .node {
+    width: 12%;
+  }
+
+  .buttonCv {
+    font-size: 8px;
+  }
+
+  .segioContainer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }

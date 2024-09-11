@@ -15,7 +15,7 @@
   margin-top: 60px;
   margin-bottom: 60px;
   width: 80%;
-  background-color: #24272b;
+  /* background-color: #24272b; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,9 +44,18 @@
 .henry {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 800px;
+  justify-content: space-between;
+  background-color: #24272b;
+  border-radius: 20px;
+  padding: 30px;
 }
+
+.henry2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .henryImgCointainer {
   display: flex;
   flex-direction: column;
@@ -84,14 +93,8 @@
   color: white;
 }
 
-.año {
-  font-family: "Roboto Mono", monospace;  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  color: white;
-}
-
 .certificado {
+  width: 100%;
   height: 50px;
   color: #dad7cd;
   border-radius: 10px;
@@ -108,3 +111,104 @@
 .certificado:hover {
   transform: scale(1.1);
 }
+
+
+
+@media (max-width: 1024px) {
+  
+  .nombreCurso{
+    font-size: 35px;
+  }
+  
+  .nombreTitulo {
+    font-size: 28px;
+  }
+
+  .duracion{
+    font-size: 20px;
+  }
+
+  }
+
+
+  @media (max-width: 768px) {
+  
+    .nombreCurso{
+      font-size: 28px;
+    }
+    
+    .nombreTitulo {
+      font-size: 18px;
+    }
+  
+    .duracion{
+      font-size: 16px;
+    }
+  
+    .henry{
+      padding: 20px;
+    }
+
+    .certificado{
+      height: 30px;
+    }
+
+    }
+
+
+    @media (max-width: 700px) {
+      .nombreCurso{
+        font-size: 24px;
+      }
+      
+      .nombreTitulo {
+        font-size: 16px;
+      }
+    
+      
+    
+      .henry{
+        padding: 16px;
+      }
+  
+      .certificado{
+        height: 30px;
+      }
+  
+      
+  
+      }
+
+
+      @media (max-width: 425px) {
+        .nombreCurso{
+          font-size: 16px;
+        }
+        
+        .nombreTitulo {
+          font-size: 10px;
+        }
+      
+        
+      
+        .henry{
+          padding: 12px;
+        }
+    
+        .certificado{
+          height: 20px;
+
+          font-size: 10px;
+        }
+    
+        .nombreSeccion{
+          font-size: 20px;
+        }
+
+        .educationContainer{
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+    
+        }
+  

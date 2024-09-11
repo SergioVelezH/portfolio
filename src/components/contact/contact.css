@@ -39,18 +39,20 @@
 }
 
 .logosContacto {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
 
 .logoContainer{
-  width: 20%;
+  width: 33%;
+  display: flex;
+  align-items: end;
 }
 
 .logo {
-  width: 30%;
+  width: 40%;
   cursor: pointer;
   border-radius: 30px;
 }
@@ -71,3 +73,12 @@
   font-style: normal;
   font-size: 20px;
 }
+
+
+@media (max-width: 425px) {
+  
+  .contactTitle{
+    font-size: 12px;
+  }
+
+  }

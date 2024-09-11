@@ -8,7 +8,7 @@ import "./proyects.css";
 function Proyects() {
   return (
     <section className="sectionProyect">
-        <span className="firstTitle">PROYECTOS</span>
+      <span className="firstTitle">PROYECTOS</span>
       <div className="proyectsContainer">
         <div className="allProyects">
           <div className="proyect">
@@ -18,20 +18,18 @@ function Proyects() {
               </a>
             </div>
             <div className="infoContainer">
-              <p className="proyectTitle">Shoes On Track</p>
-              <p className="proyectInfo">
-                 E-Commerce{" "}
-              </p>
-              <p className="proyectTech">
+              <span className="proyectTitle">Shoes On Track</span>
+              <span className="proyectInfo">E-Commerce </span>
+              <span className="proyectTech">
                 Javascript, React, Node.js, PostgreSQL
-              </p>
+              </span>
             </div>
           </div>
           <div className="proyect">
             <div className="infoContainer">
-              <h2 className="proyectTitle">SpeedyCoin</h2>
-              <p className="proyectInfo">Trabajo hecho como FreeLance</p>
-              <p className="proyectTech">{" "} HTML5,{"  "} CSS</p>
+              <span className="proyectTitle">SpeedyCoin</span>
+              <span className="proyectInfo">Trabajo hecho como FreeLance</span>
+              <span className="proyectTech"> HTML5,{"  "} CSS</span>
             </div>
             <div className="imgContainer">
               <a href="https://speedy-one.vercel.app/">
@@ -46,16 +44,16 @@ function Proyects() {
               </a>
             </div>
             <div className="infoContainer">
-              <h2 className="proyectTitle">Key Board Game</h2>
-              <p className="proyectInfo">Juego de teclado</p>
-              <p className="proyectTech">Javascript, HTML5, CSS</p>
+              <span className="proyectTitle">Key Board Game</span>
+              <span className="proyectInfo">Juego de teclado</span>
+              <span className="proyectTech">Javascript, HTML5, CSS</span>
             </div>
           </div>
           <div className="proyect">
             <div className="infoContainer">
-              <h2 className="proyectTitle">Retro-Game</h2>
-              <p className="proyectInfo">Juego de arcade</p>
-              <p className="proyectTech"> Javascript, HTML5, CSS</p>
+              <span className="proyectTitle">Retro-Game</span>
+              <span className="proyectInfo">Juego de arcade</span>
+              <span className="proyectTech"> Javascript, HTML5, CSS</span>
             </div>
             <div className="imgContainer">
               <a href="https://retro-game-eight.vercel.app/">

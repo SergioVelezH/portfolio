@@ -13,11 +13,11 @@
   margin-top: 60px;
   margin-bottom: 60px;
   width: 80%;
-  background-color: #24272b;
+  /* background-color: #24272b; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 20px;
+  gap: 15px;
 }
 
 
@@ -35,11 +35,13 @@
 }
 
 .lenguajesContainer {
-  margin-top: 35px;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #24272b;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 
@@ -65,6 +67,9 @@
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
+  background-color: #24272b;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 
@@ -85,7 +90,7 @@
 .js2,
 .css2,
 .html2 {
-  width: 8%;
+  width: 12%;
   border-radius: 30px;
 }
 
@@ -116,5 +121,57 @@
 
 .españolImg,
 .inglesImg {
-  width: 32%;
+  width: 40%;
 }
+
+
+
+@media (max-width: 800px) {
+  
+  .español,
+  .ingles {
+    font-size: 12px;
+
+  }
+
+  }
+
+  @media (max-width: 600px) {
+  
+    .español,
+    .ingles {
+      font-size: 10px;
+  
+    }
+  
+    }
+
+
+    @media (max-width: 425px) {
+  
+      .español,
+      .ingles {
+        font-size: 8px;
+    
+      }
+    
+      .skillsTitle{
+        font-size: 20px;
+      }
+
+      .skillsContainer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      }
+
+      @media (max-width: 375px) {
+  
+        .español,
+        .ingles {
+          font-size: 7px;
+      
+        }
+      
+        }
