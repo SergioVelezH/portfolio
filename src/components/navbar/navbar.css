@@ -7,7 +7,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .navbarSection {
-  max-width: 1440px;
   width: 100vw;
   background-color: #0b090a;
   display: flex;
@@ -15,6 +14,7 @@
 }
 
 .navContainer {
+  max-width: 1440px;
   height: 80px;
   width: 90%;
   display: flex;
@@ -47,6 +47,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: normal;
+  cursor: pointer;
 }
 
 

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .aboutSection {
-  max-width: 1440px;
+  width: 100vw;
   background-color: #0b090a;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
 }
 
 .aboutContainer {
+  max-width: 1440px;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -76,17 +77,17 @@
 }
 
 .redesContainer {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.redesImg {
-  width: 100%;
-}
+
 
 .logo {
   width: 100%;
+  cursor: pointer;
+
 }
 
 @media (max-width: 1024px) {

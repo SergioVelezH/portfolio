@@ -18,7 +18,7 @@ function Sergio() {
           </div>
           <div className="contactButton">
           <a href="https://wa.link/49qto7" >
-            <button className="contactMe">CONTACT ME</button>
+            <button className="contactMe">{"<"}CONTACTO{">"}</button>
             </a>
             <button className="linkedin">
               <img src={link} alt="" className="buttonImg"/>

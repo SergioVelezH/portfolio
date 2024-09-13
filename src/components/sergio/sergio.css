@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .sergioSection {
-  max-width: 1440px;
+  width: 100vw;
   background-color: #0b090a;
   display: flex;
   flex-direction: row;
@@ -19,6 +19,7 @@
 }
 
 .sergio {
+  max-width: 1440px;
   width: 80%;
   background-color: #0b090a;
   display: flex;
@@ -87,12 +88,14 @@ a {
   font-family: "Manrope", sans-serif;
   font-weight: 1000;
   color: black;
+  cursor: pointer;
 }
 
 .linkedin {
   border-radius: 100px;
   background-color: #222222;
   color: #d3e97a;
+  cursor: pointer;
 }
 
 .buttonImg {
