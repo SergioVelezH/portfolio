@@ -9,7 +9,7 @@ function Contact() {
     <section className="aboutSection">
       <div className="aboutContainer">
         <span className="title">CONECTEMOS</span>
-        <div className="descriptionContainer">
+        <div className="descriptionContainerContact">
           <div className="contactDescription">
             <div className="underline">
               <span className="description">Di hola en</span>
@@ -26,16 +26,16 @@ function Contact() {
               href="https://www.linkedin.com/in/sergio-v%C3%A9lez-435510284/"
               className="redesImg"
             >
-              <img src={link} alt="" />
+              <img src={link} alt="" className="logo" />
             </a>
             <a href="https://github.com/SergioVelezH" className="redesImg">
-              <img src={github} alt="" />
+              <img src={github} alt="" className="logo" />
             </a>
             <a href="  https://www.instagram.com/ssergiovelez_/" className="redesImg">
-              <img src={ig} alt="" />
+              <img src={ig} alt="" className="logo" />
             </a>
             <a href="https://wa.link/49qto7" className="redesImg">
-              <img src={wsp} alt="" />
+              <img src={wsp} alt="" className="logo" />
             </a>
           </div>
         </div>

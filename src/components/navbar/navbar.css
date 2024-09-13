@@ -6,7 +6,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
 .navbarSection {
   max-width: 1440px;
   width: 100vw;
@@ -14,7 +13,6 @@
   display: flex;
   justify-content: center;
 }
-
 
 .navContainer {
   height: 80px;
@@ -25,7 +23,7 @@
   align-items: center;
 }
 
-.sergioButton{
+.sergioButton {
   border: 0px;
   background-color: #0b090a;
   color: white;
@@ -33,10 +31,9 @@
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
-
 }
 
-.divButtons{
+.divButtons {
   display: flex;
   gap: 32px;
 }
@@ -50,12 +47,9 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-style: normal;
-  transition: background-color 0.3s ease;
 }
 
-.navButton:hover {
-  background-color: #3e78b2;
-}
+
 
 .navButton:hover::after {
   content: "";
@@ -67,21 +61,30 @@
   background-color: black;
 }
 
-@media (max-width: 700px) {
-  .navButton {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 550px) {
-  .navButton {
-    font-size: 13px;
-  }
-}
-
 @media (max-width: 425px) {
   .navButton {
+    font-size: 12px;
+  }
+
+  .sergioButton {
+    font-size: 28px;
+  }
+
+  .divButtons {
+    gap: 10px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .sergioButton {
+    font-size: 22px;
+  }
+  .navButton {
     font-size: 10px;
+  }
+  .divButtons {
+    gap: 8px;
   }
 }
 
@@ -89,4 +92,8 @@
   .navButton {
     font-size: 8px;
   }
+  .sergioButton {
+    font-size: 18px;
+  }
 }
+

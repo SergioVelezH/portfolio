@@ -6,7 +6,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .sergioSection {
   max-width: 1440px;
@@ -27,13 +27,13 @@
   justify-content: center;
 }
 
-.perfilContainer{
+.perfilContainer {
   width: 50%;
   display: flex;
   justify-content: center;
 }
 
-.perfilFoto{
+.perfilFoto {
   width: 80%;
   border-radius: 16px;
 }
@@ -47,11 +47,10 @@
   gap: 40px;
 }
 
-.nameContainer{
+.nameContainer {
   display: flex;
   flex-direction: column;
 }
-
 
 .name {
   font-size: 101px;
@@ -67,41 +66,116 @@
   color: white;
 }
 
-
 .contactButton {
   display: flex;
   flex-direction: row;
   gap: 16px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.contactMe{
+.contactMe {
   display: flex;
   align-items: center;
   height: 54px;
   border-radius: 100px;
   padding: 20px 6px 20px 6px;
-  background-color:#D3E97A ;
+  background-color: #d3e97a;
   font-size: 16px;
   font-family: "Manrope", sans-serif;
   font-weight: 1000;
   color: black;
 }
 
-.linkedin{
+.linkedin {
   border-radius: 100px;
-  background-color:#222222;
-  color: #D3E97A;
+  background-color: #222222;
+  color: #d3e97a;
 }
 
-.buttonImg{
+.buttonImg {
   width: 80%;
 }
 
+@media (max-width: 1024px) {
+  .name {
+    font-size: 90px;
+  }
 
+  .bienvenido {
+    font-size: 16px;
+  }
 
+  .contactMe {
+    font-size: 14px;
+    padding: 16px 4px 16px 4px;
+  }
 
+  .buttonImg {
+    width: 70%;
+  }
+}
 
+@media (max-width: 768px) {
+  .name {
+    font-size: 72px;
+  }
+
+  .bienvenido {
+    font-size: 12px;
+  }
+
+  .contactMe {
+    font-size: 10px;
+    padding: 12px 4px;
+    height: 40px;
+  }
+
+  .buttonImg {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .sergio {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .segioContainer{
+    width: 100%;
+    gap: 25px;
+  }
+
+  .perfilContainer {
+    width: 100%;
+  }
+
+  .perfilFoto {
+    width: 100%;
+    
+  }
+
+  .name {
+    font-size: 57px;
+  }
+
+  .bienvenido {
+    font-size: 16px;
+  }
+
+  .contactMe {
+    font-size: 10px;
+    padding: 12px 4px;
+    height: 40px;
+  }
+
+  .buttonImg {
+    width: 60%;
+  }
+}

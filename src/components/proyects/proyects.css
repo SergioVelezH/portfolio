@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .sectionProyect {
   max-width: 1440px;
@@ -21,7 +20,7 @@
   gap: 120px;
 }
 
-.titlesContainer{
+.titlesContainer {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -37,14 +36,13 @@
   color: white;
 }
 
-.subTitle{
+.subTitle {
   width: 100%;
   font-size: 18px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   color: white;
 }
-
 
 .allProyects {
   width: 80%;
@@ -63,12 +61,11 @@
   gap: 48px;
 }
 
-
-.img{
+.img {
   width: 40%;
   border-radius: 15px;
   padding: 130px 20px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
 }
 
 .infoContainer {
@@ -78,27 +75,27 @@
   gap: 32px;
 }
 
-.proyectTitleContainer{
+.proyectTitleContainer {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.proyectTitle{
+.proyectTitle {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   color: white;
   font-size: 32px;
 }
 
-.proyectInfo{
+.proyectInfo {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   color: white;
   font-size: 18px;
 }
 
-.secondInfoProyect{
+.secondInfoProyect {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -108,7 +105,7 @@
   font-size: 16px;
 }
 
-.date{
+.date {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -116,7 +113,7 @@
   border-bottom: 1px solid white;
 }
 
-.buttonDemo{
+.buttonDemo {
   display: flex;
   justify-content: start;
   width: 33%;
@@ -124,73 +121,100 @@
   border: none;
   font-family: "Manrope", sans-serif;
   font-weight: 700;
-  color: #D3E97A;
+  color: #d3e97a;
   font-size: 16px;
   padding: 0;
 }
 
+@media (max-width: 1024px) {
+  .proyectTitle {
+    font-size: 28px;
+  }
 
+  .proyectInfo {
+    font-size: 16px;
+  }
 
+  .secondInfoProyect {
+    font-size: 14px;
+  }
 
+  .buttonDemo {
+    font-size: 14px;
+  }
+}
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+  .firstTitle {
+    font-size: 72px;
+  }
 
-  .allProyects{
+  .proyectTitle {
+    font-size: 22px;
+  }
+
+  .proyectInfo {
+    font-size: 12px;
+  }
+
+  .secondInfoProyect {
+    font-size: 10px;
+  }
+
+  .buttonDemo {
+    font-size: 10px;
+  }
+
+  .img {
+    padding: 120px 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .sectionProyect{
+    padding-top: 50px;
+  }
+  .firstTitle {
+    font-size: 43px;
+  }
+
+  .subTitle {
+    font-size: 14px;
+  }
+
+  .proyectsContainer {
+    width: 90%;
+    gap: 50px
+    ;
+  }
+
+  .proyect {
+    display: flex;
+    flex-direction: column;
     gap: 25px;
   }
 
-  .proyectTitle{
-    font-size: 20px;
+  .proyectTitle {
+    font-size: 24px;
   }
 
-  .proyectInfo{
-    font-size: 12px;
+  .proyectInfo {
+    font-size: 16px;
   }
 
-  .proyectTech{
-    font-size: 12px;
-    padding: 3px;
+  .secondInfoProyect {
+    font-size: 16px;
   }
 
-  .firstTitle {
-    font-size: 20px;
+  .buttonDemo {
+    font-size: 16px;
   }
 
-  .proyect{
-    padding: 8px;
+  .infoContainer {
+    width: 90%;
   }
 
+  .img {
+    width: 80%;
   }
-
-
-
-  @media (max-width: 425px) {
-
-    .proyectTitle{
-      font-size: 14px;
-    }
-  
-    .proyectInfo{
-      font-size: 8px;
-    }
-  
-    .proyectTech{
-      font-size: 6px;
-      padding: 2px;
-    }
-  
-    .firstTitle {
-      font-size: 20px;
-    }
-  
-    .proyect{
-      padding: 3px;
-    }
-  
-    .proyectsContainer{
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-
-    }
-  
+}

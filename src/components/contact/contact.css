@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .aboutSection {
   max-width: 1440px;
@@ -25,7 +25,6 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   color: white;
-  
 }
 
 .secondContainer {
@@ -35,53 +34,152 @@
   align-items: center;
 }
 
-.descriptionContainer{
+.descriptionContainerContact {
   width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
-.contactDescription{
+.contactDescription {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.underline{
+.underline {
   display: flex;
   flex-direction: row;
   gap: 8px;
 }
 
-.description{
+.description {
   font-size: 24px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   color: white;
 }
 
-.secondDescription{
+.secondDescription {
   font-size: 24px;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: white;
-  border-bottom: 1px solid #D3E97A;
+  border-bottom: 1px solid #d3e97a;
 }
 
-.redes{
+.redes {
   font-size: 24px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   color: white;
 }
 
-.redesContainer{
-  width: 50%;
+.redesContainer {
+  width: 80%;
   display: flex;
   flex-direction: row;
-  gap: 25px;
 }
 
-.redesImg{
-  width: 15%;
+.redesImg {
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 90px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+  .secondDescription {
+    font-size: 18px;
+  }
+
+  .redes {
+    font-size: 18px;
+  }
+  .logo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 62px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .secondDescription {
+    font-size: 13px;
+  }
+
+  .redes {
+    font-size: 13px;
+  }
+  .logo {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutSection{
+    padding-top: 50px;
+  }
+  .aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .title{
+    width: 100%;
+    font-size: 57px;
+  }
+  .descriptionContainerContact{
+    width: 100%;
+  }
+  .description {
+    font-size: 16px;
+  }
+
+  .secondDescription {
+    font-size: 16px;
+  }
+
+  .redes {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .description {
+    font-size: 15px;
+  }
+  .secondDescription {
+    font-size: 15px;
+  }
+  .redes {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .description {
+    font-size: 12px;
+  }
+  .secondDescription {
+    font-size: 12px;
+  }
+  .redes {
+    font-size: 12px;
+  }
+
 }

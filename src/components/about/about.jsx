@@ -6,7 +6,7 @@ function About() {
     <section className="aboutSection">
       <div className="aboutContainer">
         <span className="title">SOBRE MI</span>
-        <div className="descriptionContainer">
+        <div className="descriptionContainerAbout">
           <span className="description2">
             Soy un desarrollador web Argentino
             viviendo en Córdoba.

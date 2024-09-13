@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .aboutSection {
   max-width: 1440px;
@@ -28,7 +28,6 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   color: white;
-    
 }
 
 .secondContainer {
@@ -38,32 +37,31 @@
   align-items: center;
 }
 
-.descriptionContainer{
+.descriptionContainerSkills {
   width: 50%;
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.description3{
+.description3 {
   font-size: 18px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   color: white;
 }
 
-.skillsContainer{
+.skillsContainer {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.frontSkills{
+.frontSkills {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 16px
-  ;
+  gap: 16px;
 }
 
 .frontSkills span {
@@ -72,6 +70,80 @@
   font-weight: 700;
   color: white;
   padding: 20px 40px;
-  border: 1px solid #484848 ;
+  border: 1px solid #484848;
   border-radius: 100px;
+}
+
+@media (max-width: 1230px) {
+  .title {
+    font-size: 90px;
+  }
+
+  .frontSkills span {
+    padding: 14px 24px;
+  }
+
+  .description3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 950px) {
+  .frontSkills span {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 62px;
+  }
+
+  .description3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutSection {
+    padding-top: 50px;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .title {
+    width: 100%;
+    font-size: 57px;
+  }
+  .descriptionContainerSkills {
+    width: 100%;
+  }
+  .description3 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .frontSkills span {
+    padding: 15px 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .frontSkills span {
+    padding: 10px 16px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .description3 {
+    font-size: 20px;
+  }
+  .frontSkills span {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
 }

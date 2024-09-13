@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
 
 .aboutSection {
   max-width: 1440px;
@@ -25,7 +25,6 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   color: white;
-  
 }
 
 .secondContainer {
@@ -35,23 +34,87 @@
   align-items: center;
 }
 
-.descriptionContainer{
+.descriptionContainerAbout {
   width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
-.description2{
+.description2 {
   font-size: 32px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   color: white;
 }
 
-.secondDescription2{
+.secondDescription2 {
   font-size: 18px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   color: white;
 }
 
+@media (max-width: 1024px) {
+  .title {
+    font-size: 90px;
+  }
+
+  .description2 {
+    font-size: 26px;
+  }
+
+  .secondDescription2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 62px;
+  }
+
+  .description2 {
+    font-size: 20px;
+  }
+
+  .secondDescription2 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutSection{
+    padding-top: 50px;
+  }
+  .aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .title{
+    width: 100%;
+    font-size: 57px;
+  }
+  .descriptionContainerAbout{
+    width: 100%;
+  }
+  .description2 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .secondDescription2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .description2 {
+    font-size: 20px;
+  }
+
+  .secondDescription2 {
+    font-size: 14px;
+  }
+}

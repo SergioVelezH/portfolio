@@ -6,7 +6,7 @@ function Skills() {
     <section className="aboutSection">
       <div className="aboutContainer">
         <span className="title">HABILIDADES</span>
-        <div className="descriptionContainer">
+        <div className="descriptionContainerSkills">
           <span className="description3">
             Estoy siempre buscando cosas nuevas para aprender y poder ampliar mis conocimientos
           </span>
