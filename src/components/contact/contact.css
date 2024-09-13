@@ -110,6 +110,9 @@
 }
 
 @media (max-width: 768px) {
+  .aboutSection {
+    padding-top: 100px;
+  }
   .title {
     font-size: 62px;
   }
@@ -161,13 +164,13 @@
 
 @media (max-width: 375px) {
   .description {
-    font-size: 15px;
+    font-size: 12px;
   }
   .secondDescription {
-    font-size: 15px;
+    font-size: 12px;
   }
   .redes {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 

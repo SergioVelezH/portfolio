@@ -145,6 +145,9 @@
 }
 
 @media (max-width: 768px) {
+  .sectionProyect{
+    padding-top: 100px;
+  }
   .firstTitle {
     font-size: 72px;
   }
