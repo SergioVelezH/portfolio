@@ -13,17 +13,13 @@ function Navbar({ changeSection }) {
       <section className="navbarSection">
         <div className="navContainer">
           <button
-            className="navButton"
+            className="sergioButton"
             onClick={() => scrollToSection("sergio")}
           >
-            Sergio
+            Sergio Vélez
           </button>
-          <button
-            className="navButton"
-            onClick={() => scrollToSection("about")}
-          >
-            Sobre Mí
-          </button>
+          
+          <div className="divButtons">
           <button
             className="navButton"
             onClick={() => scrollToSection("projects")}
@@ -32,15 +28,9 @@ function Navbar({ changeSection }) {
           </button>
           <button
             className="navButton"
-            onClick={() => scrollToSection("education")}
-          >
-            Formación
-          </button>
-          <button
-            className="navButton"
             onClick={() => scrollToSection("skills")}
           >
-            Skills
+            Habilidades
           </button>
           <button
             className="navButton"
@@ -48,6 +38,9 @@ function Navbar({ changeSection }) {
           >
             Contacto
           </button>
+
+          </div>
+          
         </div>
       </section>
     </nav>

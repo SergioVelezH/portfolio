@@ -1,84 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
 
-
-.sectionContact {
+.aboutSection {
   max-width: 1440px;
-  background-color: #24272b;
+  background-color: #0b090a;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 250px;
+  padding-bottom: 50px;
 }
 
-.divContact {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: #24272b;
+.aboutContainer {
   width: 80%;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
+  align-items: start;
+  justify-content: center;
 }
 
-.contactTitle{
-  width: 80%;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.tituloContacto {
-  width: 80%;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  color: #3e78b2;
-  font-size: 30px;
-}
-
-.logosContacto {
+.title {
   width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
+  font-size: 101px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  color: white;
+  
 }
 
-.logoContainer{
-  width: 33%;
-  display: flex;
-  align-items: end;
-}
-
-.logo {
-  width: 40%;
-  cursor: pointer;
-  border-radius: 30px;
-}
-
-.telefonoMail {
+.secondContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  margin-bottom: 15px;
 }
 
-.telefono {
+.descriptionContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactDescription{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.underline{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.description{
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
   color: white;
-  font-family: "Kdam Thmor Pro", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
 }
 
+.secondDescription{
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  color: white;
+  border-bottom: 1px solid #D3E97A;
+}
 
-@media (max-width: 425px) {
-  
-  .contactTitle{
-    font-size: 12px;
-  }
+.redes{
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  color: white;
+}
 
-  }
+.redesContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.redesImg{
+  width: 15%;
+}

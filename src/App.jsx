@@ -16,15 +16,15 @@ function App() {
       <div id="sergio">
         <Sergio />
       </div>
-      {/* <div id="about">
-        <About />
-      </div> */}
       <div id="projects">
         <Proyects />
       </div>
-      <div id="education">
-        <Education />
+      <div id="about">
+        <About />
       </div>
+      {/* <div id="education">
+        <Education />
+      </div> */}
       <div id="skills">
         <Skills />
       </div>

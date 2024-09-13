@@ -1,13 +1,54 @@
 import "./contact.css";
-import fig from "../../assets/img/icons8-gmail-nuevo-96.png";
-import telefono from "../../assets/img/icons8-teléfono-celular-96.png";
-import link from "../../assets/img/icons8-linkedin.svg";
-import wsp from "../../assets/img/icons8-whatsapp-96.png";
-import github from "../../assets/img/icons8-github-100.png";
+import ig from "../../assets/img/icons8-instagram-50.png";
+import link from "../../assets/img/icons8-linkedin-50.png";
+import wsp from "../../assets/img/icons8-whatsapp-50.png";
+import github from "../../assets/img/icons8-github-50.png";
 
 function Contact() {
   return (
-    <section className="sectionContact">
+    <section className="aboutSection">
+      <div className="aboutContainer">
+        <span className="title">CONECTEMOS</span>
+        <div className="descriptionContainer">
+          <div className="contactDescription">
+            <div className="underline">
+              <span className="description">Di hola en</span>
+              <span className="secondDescription">
+                sergiovelezhernandez11@gmail.com
+              </span>
+            </div>
+            <span className="redes">
+              Para más información acá estan mis redes
+            </span>
+          </div>
+          <div className="redesContainer">
+            <a
+              href="https://www.linkedin.com/in/sergio-v%C3%A9lez-435510284/"
+              className="redesImg"
+            >
+              <img src={link} alt="" />
+            </a>
+            <a href="https://github.com/SergioVelezH" className="redesImg">
+              <img src={github} alt="" />
+            </a>
+            <a href="  https://www.instagram.com/ssergiovelez_/" className="redesImg">
+              <img src={ig} alt="" />
+            </a>
+            <a href="https://wa.link/49qto7" className="redesImg">
+              <img src={wsp} alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Contact;
+
+{
+  /* <section className="sectionContact">
+  https://www.instagram.com/ssergiovelez_/
       <div className="divContact">
         <span className="contactTitle">Developed by Sergio Vélez</span>
         <div className="logosContacto">
@@ -28,8 +69,5 @@ function Contact() {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section> */
 }
-
-export default Contact;

@@ -2,28 +2,53 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
 .navbarSection {
   max-width: 1440px;
   width: 100vw;
-}
-.navContainer {
-  background-color: #24272b;
-  height: 80px;
-  width: 100%;
+  background-color: #0b090a;
   display: flex;
   justify-content: center;
+}
+
+
+.navContainer {
+  height: 80px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
+.sergioButton{
+  border: 0px;
+  background-color: #0b090a;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+
+}
+
+.divButtons{
+  display: flex;
+  gap: 32px;
+}
+
 .navButton {
-  background-color: #24272b;
+  background-color: #0b090a;
   border: 0px;
   color: white;
   height: 65px;
-  width: 230px;
-  font-size: 17px;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   font-style: normal;
   transition: background-color 0.3s ease;
 }
@@ -55,13 +80,13 @@
 }
 
 @media (max-width: 425px) {
-    .navButton {
-      font-size: 10px;
-    }
+  .navButton {
+    font-size: 10px;
   }
+}
 
-  @media (max-width: 320px) {
-    .navButton {
-      font-size: 8px;
-    }
+@media (max-width: 320px) {
+  .navButton {
+    font-size: 8px;
   }
+}

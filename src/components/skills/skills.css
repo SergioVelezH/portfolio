@@ -1,177 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-.sectionSkills {
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+.aboutSection {
   max-width: 1440px;
-  background-color: #07070a;
+  background-color: #0b090a;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.skillsContainer {
-  margin-top: 60px;
-  margin-bottom: 60px;
+.aboutContainer {
   width: 80%;
-  /* background-color: #24272b; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
 }
 
-
-
-.skillsTitle {
-  width: 80%;
-  font-family: "Roboto Mono", monospace;
+.title {
+  width: 50%;
+  font-size: 101px;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  color: #3e78b2;
-  font-size: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-}
-
-.lenguajesContainer {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #24272b;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-
-.techLogos {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
-.subContainer{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.idiomasContainer {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 20px;
-  background-color: #24272b;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-
-
-.espIng {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.fig,
-.vsc,
-.thu,
-.boot,
-.node2,
-.reactLogo2,
-.js2,
-.css2,
-.html2 {
-  width: 12%;
-  border-radius: 30px;
-}
-
-.espIng {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.españolTitleImg {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.español,
-.ingles {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
   color: white;
-  font-size: 15px;
-  text-align: center;
+    
 }
 
-.españolImg,
-.inglesImg {
-  width: 40%;
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.descriptionContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
+.description3{
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: white;
+}
 
-@media (max-width: 800px) {
-  
-  .español,
-  .ingles {
-    font-size: 12px;
+.skillsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-  }
+.frontSkills{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px
+  ;
+}
 
-  }
-
-  @media (max-width: 600px) {
-  
-    .español,
-    .ingles {
-      font-size: 10px;
-  
-    }
-  
-    }
-
-
-    @media (max-width: 425px) {
-  
-      .español,
-      .ingles {
-        font-size: 8px;
-    
-      }
-    
-      .skillsTitle{
-        font-size: 20px;
-      }
-
-      .skillsContainer{
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-
-      }
-
-      @media (max-width: 375px) {
-  
-        .español,
-        .ingles {
-          font-size: 7px;
-      
-        }
-      
-        }
+.frontSkills span {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: white;
+  padding: 20px 40px;
+  border: 1px solid #484848 ;
+  border-radius: 100px;
+}

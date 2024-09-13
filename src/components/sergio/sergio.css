@@ -2,162 +2,106 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
 .sergioSection {
   max-width: 1440px;
-  background-color: #07070a;
+  background-color: #0b090a;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .sergio {
   width: 80%;
-  background-color: #07070a;
+  background-color: #0b090a;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.perfilContainer{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.perfilFoto{
+  width: 80%;
+  border-radius: 16px;
 }
 
 .segioContainer {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  background-color: #07070a;
+  width: 50%;
+  background-color: #0b090a;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 25px;
+  align-items: start;
+  gap: 40px;
 }
 
-.nameContainer {
-  /* height: 180px; */
+.nameContainer{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
 }
+
 
 .name {
-  font-size: 80px;
-  font-family: "Roboto Mono", monospace;
+  font-size: 101px;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  color: #3e78b2;
-}
-.lastName {
-  font-size: 80px;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  color: #004ba8;
-}
-.bienvenido {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 300;
-  font-style: normal;
   color: white;
 }
 
-.js,
-.css,
-.html,
-.post,
-.reactLogo,
-.node {
-  width: 16%;
-  border-radius: 20px;
+.bienvenido {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: white;
 }
 
-.logos {
+
+.contactButton {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  gap: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.contactMe{
+  display: flex;
   align-items: center;
-  max-width: 500px;
+  height: 54px;
+  border-radius: 100px;
+  padding: 20px 6px 20px 6px;
+  background-color:#D3E97A ;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 1000;
+  color: black;
 }
 
-.aButton {
-  width: 40%;
+.linkedin{
+  border-radius: 100px;
+  background-color:#222222;
+  color: #D3E97A;
 }
 
-.buttonCv {
-  height: 40px;
-  width: 100%;
-  color: #dad7cd;
-  border-radius: 20px;
-  background-color: #24272b;
-  font-size: 14px;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.buttonCv:hover {
-  transform: scale(1.1);
-}
-
-@media (max-width: 700px) {
-  .name {
-    font-size: 60px;
-  }
-  .lastName {
-    font-size: 60px;
-  }
-
-  .bienvenido {
-    font-size: 16px;
-  }
-
-  .js,
-  .css,
-  .html,
-  .post,
-  .reactLogo,
-  .node {
-    width: 14%;
-  }
-
-  .buttonCv {
-    font-size: 12px;
-  }
+.buttonImg{
+  width: 80%;
 }
 
 
-@media (max-width: 425px) {
-  .name {
-    font-size: 40px;
-  }
-  .lastName {
-    font-size: 40px;
-  }
 
-  .bienvenido {
-    font-size: 12px;
-  }
 
-  .js,
-  .css,
-  .html,
-  .post,
-  .reactLogo,
-  .node {
-    width: 12%;
-  }
 
-  .buttonCv {
-    font-size: 8px;
-  }
-
-  .segioContainer{
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-}
