@@ -12,7 +12,6 @@ function Contact() {
         <div className="descriptionContainerContact">
           <div className="contactDescription">
             <div className="underline">
-              <span className="description">Di hola en</span>
               <span className="secondDescription">
                 sergiovelezhernandez11@gmail.com
               </span>

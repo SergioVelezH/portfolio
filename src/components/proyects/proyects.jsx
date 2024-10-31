@@ -1,7 +1,9 @@
 import shoes from "../../assets/img/shoesOnTrack.jpg";
-import speedy from "../../assets/img/speedy.png";
-import keyBoard from "../../assets/img/Keyboard.png";
-import arka from "../../assets/img/arka.png";
+import matter from "../../assets/img/MATTER.png";
+import key from "../../assets/img/Keyboard.png";
+
+
+
 
 import "./proyects.css";
 
@@ -46,35 +48,56 @@ function Proyects() {
           </div>
         </div>
         <div className="proyect">
-          <img src={shoes} alt="Shoes On Track" className="img" />
+          <img src={matter} alt="Matter" className="img" />
           <div className="infoContainer">
             <div className="proyectTitleContainer">
-              <span className="proyectTitle">Shoes On Track</span>
+              <span className="proyectTitle">Matter</span>
               <span className="proyectInfo">
-                Este proyecto es una plataforma de comercio electrónico
-                especializada en la venta de zapatillas deportivas. La
-                aplicación ofrece una experiencia de compra intuitiva, con un
-                catálogo dinámico que permite a los usuarios explorar productos
-                mediante filtros por categoría, marca, tamaño y precio.{" "}
+                Desarrollé un sistema de facturación completo, diseñado para simplificar la gestión de pagos y facturas. La aplicación permite a los usuarios generar y administrar facturas de manera automatizada, con funciones de cálculo de impuestos, seguimiento de pagos y generación de reportes.
               </span>
             </div>
             <div className="secondInfoProyect">
               <span>INFORMACION DEL PROYECTO</span>
               <div className="date">
                 <span>Año</span>
-                <span>2023</span>
+                <span>2024</span>
               </div>
               <div className="date">
                 <span>Rol</span>
                 <span>Desarrollador Front-end</span>
               </div>
-              <a href="https://deploy-front-alpha.vercel.app/">
+              <a href="https://matter-tau.vercel.app/">
                 <button className="buttonDemo">LIVE DEMO</button>
               </a>{" "}
             </div>
           </div>
         </div>
         <div className="proyect">
+          <img src={key} alt="Key Board" className="img" />
+          <div className="infoContainer">
+            <div className="proyectTitleContainer">
+              <span className="proyectTitle">Keyboard Game</span>
+              <span className="proyectInfo">
+                Desarrollé un juego de escritura en JavaScript que desafía a los usuarios a escribir lo más rápido y preciso posible. La aplicación mide la velocidad, precisión y progreso, proporcionando estadísticas detalladas en tiempo real. Este proyecto se centra en la interactividad y la experiencia del usuario, optimizando el rendimiento para que el juego sea dinámico y fluido.
+              </span>
+            </div>
+            <div className="secondInfoProyect">
+              <span>INFORMACION DEL PROYECTO</span>
+              <div className="date">
+                <span>Año</span>
+                <span>2024</span>
+              </div>
+              <div className="date">
+                <span>Rol</span>
+                <span>Desarrollador Javascript</span>
+              </div>
+              <a href="https://key-board-game.vercel.app/">
+                <button className="buttonDemo">LIVE DEMO</button>
+              </a>{" "}
+            </div>
+          </div>
+        </div>
+        {/* <div className="proyect">
           <img src={shoes} alt="Shoes On Track" className="img" />
           <div className="infoContainer">
             <div className="proyectTitleContainer">
@@ -102,36 +125,7 @@ function Proyects() {
               </a>{" "}
             </div>
           </div>
-        </div>
-        <div className="proyect">
-          <img src={shoes} alt="Shoes On Track" className="img" />
-          <div className="infoContainer">
-            <div className="proyectTitleContainer">
-              <span className="proyectTitle">Shoes On Track</span>
-              <span className="proyectInfo">
-                Este proyecto es una plataforma de comercio electrónico
-                especializada en la venta de zapatillas deportivas. La
-                aplicación ofrece una experiencia de compra intuitiva, con un
-                catálogo dinámico que permite a los usuarios explorar productos
-                mediante filtros por categoría, marca, tamaño y precio.{" "}
-              </span>
-            </div>
-            <div className="secondInfoProyect">
-              <span>INFORMACION DEL PROYECTO</span>
-              <div className="date">
-                <span>Año</span>
-                <span>2023</span>
-              </div>
-              <div className="date">
-                <span>Rol</span>
-                <span>Desarrollador Front-end</span>
-              </div>
-              <a href="https://deploy-front-alpha.vercel.app/">
-                <button className="buttonDemo">LIVE DEMO</button>
-              </a>{" "}
-            </div>
-          </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

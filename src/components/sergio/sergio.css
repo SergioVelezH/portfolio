@@ -80,6 +80,8 @@ a {
 .contactMe {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 140px;
   height: 54px;
   border-radius: 100px;
   padding: 20px 6px 20px 6px;
@@ -89,17 +91,25 @@ a {
   font-weight: 1000;
   color: black;
   cursor: pointer;
+  border: none;
 }
 
 .linkedin {
+  border: none;
   border-radius: 100px;
   background-color: #222222;
   color: #d3e97a;
   cursor: pointer;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttonImg {
-  width: 80%;
+  width: 26px;
+  height: 26px;
 }
 
 @media (max-width: 1024px) {

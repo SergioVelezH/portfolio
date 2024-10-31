@@ -1,5 +1,4 @@
 import "./about.css";
-import perfil from "../../assets/img/fotoperfil.jpg";
 
 function About() {
   return (
@@ -12,13 +11,7 @@ function About() {
             viviendo en Córdoba.
           </span>
           <span className="secondDescription2">
-            Soy un desarrollador front-end con sede en Sydney que busca
-            oportunidades interesantes. Tiene experiencia en Ingeniería
-            Mecánica. Le gusta centrarse en la accesibilidad al desarrollar.
-            Apasionado y curioso por la resolución de problemas. Actualmente,
-            estoy explorando Reactjs, Webflow y un poco de Diseño. Si bien no
-            programo, disfruto jugar al fútbol, ​​la fotografía y jugar a
-            Valorant. Aprender más para mejorar las habilidades.
+            Soy desarrollador web con una sólida ética de trabajo y pasión por enfrentar nuevos desafíos y aprender continuamente. Me caracterizo por ser responsable y siempre busco oportunidades que me permitan crecer profesional y personalmente. Además, en mi tiempo libre disfruto jugar al fútbol y al pádel, actividades que complementan mi enfoque de trabajo en equipo y dedicación.
           </span>
         </div>
       </div>

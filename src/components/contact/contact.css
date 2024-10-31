@@ -55,14 +55,14 @@
 }
 
 .description {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   color: white;
 }
 
 .secondDescription {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: white;
@@ -70,7 +70,7 @@
 }
 
 .redes {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   color: white;
@@ -96,14 +96,14 @@
   }
 
   .description {
-    font-size: 18px;
+    font-size: 17px;
   }
   .secondDescription {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .redes {
-    font-size: 18px;
+    font-size: 17px;
   }
   .logo {
     width: 70%;

@@ -65,8 +65,9 @@
 .img {
   width: 40%;
   border-radius: 15px;
-  padding: 130px 20px;
+  padding: 100px 20px;
   background-color: #1a1a1a;
+  object-fit: cover;
 }
 
 .infoContainer {
