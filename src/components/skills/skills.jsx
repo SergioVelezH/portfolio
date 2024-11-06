@@ -19,7 +19,7 @@ function Skills() {
             </div>
             <div className="frontSkills">
                <span>NODE </span>
-               <span>BOOTSTRAP</span>
+               <span>TYPESCRIPT</span>
                <span>VSC</span>
                <span>FIGMA</span> 
             </div>

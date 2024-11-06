@@ -1,6 +1,7 @@
 import shoes from "../../assets/img/shoesOnTrack.jpg";
 import matter from "../../assets/img/MATTER.png";
 import key from "../../assets/img/Keyboard.png";
+import videogame from "../../assets/img/videogames.png";
 
 
 
@@ -97,17 +98,13 @@ function Proyects() {
             </div>
           </div>
         </div>
-        {/* <div className="proyect">
-          <img src={shoes} alt="Shoes On Track" className="img" />
+        <div className="proyect">
+          <img src={videogame} alt="Videogames" className="img" />
           <div className="infoContainer">
             <div className="proyectTitleContainer">
-              <span className="proyectTitle">Shoes On Track</span>
+              <span className="proyectTitle">Video Games App</span>
               <span className="proyectInfo">
-                Este proyecto es una plataforma de comercio electrónico
-                especializada en la venta de zapatillas deportivas. La
-                aplicación ofrece una experiencia de compra intuitiva, con un
-                catálogo dinámico que permite a los usuarios explorar productos
-                mediante filtros por categoría, marca, tamaño y precio.{" "}
+              Aplicación web que permite explorar videojuegos de distintas plataformas y géneros usando la API de RAWG. Los usuarios pueden buscar, filtrar y ordenar títulos, accediendo a detalles como descripción, calificaciones y plataformas en una interfaz intuitiva.
               </span>
             </div>
             <div className="secondInfoProyect">
@@ -118,14 +115,14 @@ function Proyects() {
               </div>
               <div className="date">
                 <span>Rol</span>
-                <span>Desarrollador Front-end</span>
+                <span>Desarrollador Front-end y Back-end</span>
               </div>
-              <a href="https://deploy-front-alpha.vercel.app/">
-                <button className="buttonDemo">LIVE DEMO</button>
+              <a href="https://github.com/SergioVelezH/Proyect-Videogames-Vite">
+                <button className="buttonDemo">CODE</button>
               </a>{" "}
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
